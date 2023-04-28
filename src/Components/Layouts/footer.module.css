@@ -1,0 +1,52 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1c2331;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  font-size: 1.1rem;
+  height: 16rem;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer h5 {
+  color: #f4c10f;
+  font-size: 1.5rem;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer form .form-control {
+  border-radius: 0;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.footer form .input-group-append .btn {
+  border-radius: 0;
+  border: none;
+  background-color: #f4c10f;
+  color: #1c2331;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 2rem 0;
+    font-size: 1.2rem;
+  }
+}
